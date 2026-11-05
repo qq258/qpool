@@ -1,0 +1,21 @@
+{
+  "name": "qpool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local issue pool for DeepSeek Harness sessions: shared problem tree per project, closure discipline, MCP tools, read-only web console.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/cli.ts start",
+    "stop": "node src/cli.ts stop",
+    "status": "node src/cli.ts status",
+    "doctor": "node src/cli.ts doctor",
+    "backup": "node src/cli.ts backup",
+    "mcp": "node src/mcp/server.ts",
+    "test": "node test/run.ts",
+    "verify": "node scripts/verify.mjs",
+    "drill": "node scripts/mcp-concurrency.mjs"
+  }
+}

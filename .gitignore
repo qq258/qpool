@@ -1,0 +1,12 @@
+data/
+logs/
+*.log
+*.pid
+node_modules/
+config.json
+.qpool/
+.env
+.env.*
+test/mcp-out*.jsonl
+test/root-check.out
+test/root-check.jsonl

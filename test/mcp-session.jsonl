@@ -1,0 +1,8 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"qpool-smoke","version":"0"}}}
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+{"jsonrpc":"2.0","id":2,"method":"tools/list"}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"q_projects","arguments":{}}}
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"q_brief","arguments":{"project":"QPOOL"}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"q_gate","arguments":{"project":"QPOOL"}}}
+{"jsonrpc":"2.0","id":6,"method":"tools/call","params":{"name":"q_show","arguments":{"item":"QPOOL-6"}}}
+{"jsonrpc":"2.0","id":7,"method":"tools/call","params":{"name":"q_unknown_tool","arguments":{}}}

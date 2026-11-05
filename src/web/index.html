@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>qpool · 项目问题池</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/projects">qpool</a>
+      <span class="sub">本地问题池 · 只读</span>
+      <form class="search" id="search-form">
+        <input id="search-input" type="search" placeholder="搜索问题标题 / 正文 / 编号…" autocomplete="off" />
+      </form>
+      <button id="refresh-btn" type="button" title="立即刷新">刷新</button>
+      <span class="updated" id="updated"></span>
+    </header>
+
+    <main id="app">
+      <div class="loading">加载中…</div>
+    </main>
+
+    <footer class="foot">
+      数据：本地 SQLite · 端点为 127.0.0.1 · 所有写入只能由 DSH 通过 MCP 执行
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
